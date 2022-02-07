@@ -55,5 +55,8 @@ end
 gem 'bootstrap', '~> 5'
 gem 'jquery-rails'
 
+# パスワードをハッシュ化
+gem 'bcrypt',  '3.1.12'
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
